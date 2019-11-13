@@ -1,0 +1,224 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    height: 112px;
+    width: 100%;
+    line-height: 112px;
+    background-color: rgb(225, 229, 241);
+    opacity: 0.8;
+}
+
+
+
+ 
+header nav ul li {
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: rgb(202, 30, 7);
+    padding-left: 30px;
+    transition: all 0.3s ease-in;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 70);
+    font-size: 22px;
+    text-shadow: 2px 2px 2px red;
+}
+
+
+.nav-heading {
+    color: rgb(9, 0, 138);
+    text-shadow: 4px 4px 4px #000000;
+    font-size: 35px;
+    padding-left: 50px;
+    font-family: 'Playfair Display SC', cursive;
+}
+
+
+.body1 {
+    height: 600px;
+    width: 100%;
+    background-image: url("images/L_backgnd.jpg");
+    background-size: contain;
+}
+
+.tag-head {
+    padding-top: 20%;
+    padding-left: 18%;
+    font-size: 50px;
+}
+
+.body1 h4 {
+    padding-left: 18%;
+    padding-top: 3%;
+}
+
+#body2 {
+    background-image: url(images/one_piece_backgnd.jpg);
+    background-size: contain;
+    height: 600px;
+    width: 100%;
+}
+
+#body2 h4 {
+    padding-left: 21.5%;
+    padding-top: 3%;
+    color: rgb(179, 0, 0);
+}
+
+#tag-head2 {
+    padding-top: 20%;
+    padding-left: 20%;
+    font-size: 50px;
+    color: rgb(63, 101, 172);
+}
+
+#body3 {
+    background-image: url(images/Levi_backgnd.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+#body3 h4 {
+    padding-left: 60%;
+    padding-top: 3%;
+}
+
+#tag-head3 {
+    padding-top: 20%;
+    padding-left: 60%;
+    font-size: 50px;
+}
+
+#body4 {
+    background-image: url(images/opm-backgnd.jpg);
+    background-size: contain;
+    height: 600px;
+    width: 100%;
+}
+
+#tag-head4 {
+    padding-top: 10%;
+    padding-left: 23%;
+    font-size: 50px;
+    color: rgb(63, 101, 172);
+}
+
+#body4 h4 {
+    padding-left: 25%;
+    padding-top: 3%;
+    color: rgb(179, 0, 0);
+}
+
+#body5 {
+    background-image: url(images/demon-backgnd.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+#tag-head5 {
+    padding-top: 27%;
+    padding-left: 23%;
+    font-size: 45px;
+}
+
+#body5 h4 {
+    padding-left: 25%;
+    padding-top: 2%;
+}
+
+#body6 {
+    background-image: url(images/hero_acad_backgnd.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+#tag-head6 {
+    padding-top: 20%;
+    padding-left: 30%;
+    font-size: 45px;
+}
+
+#body6 h4 {
+    padding-left: 30%;
+    padding-top: 2%;
+}
+
+#body7 {
+    background-image: url(images/hunter-backgnd.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+#tag-head7 {
+    padding-top: 20%;
+    padding-left: 60%;
+    font-size: 50px;
+    color: rgb(179, 0, 0);
+}
+
+#body7 h4 {
+    padding-left: 60%;
+    padding-top: 2%;
+}
+
+#body8 {
+    background-image: url(images/tokyo-backgnd.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+#tag-head8 {
+    padding-top: 20%;
+    padding-left: 25%;
+    font-size: 50px;
+    color: rgb(65, 18, 18);
+}
+
+#body8 h4 {
+    padding-left: 25%;
+    padding-top: 2%;
+}
+
+#body9 {
+    background-image: url(images/parasyte-backgnd.png);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+#tag-head9 {
+    padding-top: 20%;
+    padding-left: 20%;
+    font-size: 50px;
+    color: rgb(98, 12, 211);
+}
+
+#body9 h4 {
+    padding-left: 20%;
+    padding-top: 2%;
+}
+
+footer {
+    padding-left: 35%;
+    padding-top: 1%;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(250, 14, 14);
+}
